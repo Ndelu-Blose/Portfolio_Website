@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">Thamsanqa Ndelu</a>
+            <ul class="navbar-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-content">
+            <img src="Images/IMG-20240508-WA0038.jpg" alt="Thamsanqa Ndelu" class="hero-photo">
+            <h1 class="hero-heading">Hi, I'm Thamsanqa Ndelu.</h1>
+            <p class="hero-subheading">A passionate developer with a love for clean code, innovative design, and solving problems.</p>
+            <a href="#about" class="hero-cta">Learn More</a>
+        </div>
+    </div>
+    <section id="about">
+        <div class="container">
+            <h2 class="section-heading">About Me</h2>
+            <p class="section-subheading">A young creative web developer.</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi, I'm Thamsanqa Ndelu, a web developer based in Durban, South Africa. I have a passion for web development and love to create beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and WordPress. I'm always learning new things and I'm excited to see what the future holds for me.</p>
+                </div>
+                <div class="about-image">
+                    <img src="Images/IMG-20230513-WA0050.jpg" alt="Thamsanqa Ndelu">
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-heading">Projects</h2>
+            <p class="section-subheading">A selection of my recent work.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="Images/ashkan-forouzani-ignxm3E1Rg4-unsplash.jpg" alt="Project 1">
+                    <h3>Doctors Appointment System</h3>
+                    <p>Developed using C# and Windows Forms, utilizing object-oriented programming.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="Images/nico-8IK1OrkMzMQ-unsplash (1).jpg" alt="Project 2">
+                    <h3>Somatology Clinic Booking and Managing System</h3>
+                    <p>Collaborative effort built using C#, ASP.NET Core, and JavaScript. Helped staff keep track of sales and bookings.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="Images/kenrick-mills-1h2Pg97SXfA-unsplash.jpg" alt="Project 3">
+                    <h3>Weather Web Application</h3>
+                    <p>Developed using C#, React, and REST API.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="Images/markus-spiske-SXnfy2nnPUE-unsplash.jpg" alt="Project 4">
+                    <h3>Currency Converter Application</h3>
+                    <p>Developed using Windows Forms and C#.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-heading">Skills</h2>
+            <div class="skills-list">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>C#</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-heading">Contact</h2>
+            <p class="section-subheading">Get in touch with me.</p>
+            <form action="https://formspree.io/f/{your_form_id}" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="contact-cta">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p> <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a></p>
+                <p> <a href="tel:+1234567890"><i class="fas fa-phone"></i></a></p>
+                <p> <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+                <p> <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Thamsanqa Ndelu. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
